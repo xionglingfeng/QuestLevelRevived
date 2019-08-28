@@ -1,0 +1,6 @@
+## Interface: 13200
+## Title: QuestLevel - revived
+## Notes: Shows the quest's level
+## Author: Elkano, revived by 雪夜之狼
+## SavedVariables: QuestLevel_Quest2Level
+QuestLevel.xml

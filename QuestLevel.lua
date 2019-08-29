@@ -199,9 +199,11 @@ function GetTitleText()
 end
 
 local function QuestLevel_addLevelGossip(...)
-	if ( arg.n == 0) then
+	local arg={...}
+	if ( arg.n == nil or arg.n == 0) then
 		return
 	end
+
 	for i=1, arg.n, 2 do
 -- 		if( DEFAULT_CHAT_FRAME ) then
 -- 			DEFAULT_CHAT_FRAME:AddMessage("[QuestLevel] DEBUG: arg["..i.."] -> "..arg[i]);
